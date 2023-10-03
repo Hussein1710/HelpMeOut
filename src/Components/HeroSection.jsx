@@ -1,8 +1,8 @@
 import React from "react";
 import { FiArrowRight } from "react-icons/fi";
-import pic1 from "../assets/Pic1.png";
-import pic2 from "../assets/Pic2.png";
-import pic3 from "../assets/Pic3.png";
+import Pic1 from "../assets/Pic1.png";
+import Pic2 from "../assets/Pic2.png";
+import Pic3 from "../assets/Pic3.png";
 
 const HeroSection = () => {
   return (
@@ -23,12 +23,12 @@ const HeroSection = () => {
 
       <div className="grid grid-cols-2 gap-4">
         <div className="col-span-1 flex flex-col gap-6">
-          <img src={pic1} alt="photo" />
-          <img src={pic2} alt="photo" />
+          <img src={Pic1} alt="photo" />
+          <img src={Pic2} alt="photo" />
         </div>
 
         <div className="col-span-1">
-          <img src={pic3} alt="photo" />
+          <img src={Pic3} alt="photo" />
         </div>
       </div>
     </div>
