@@ -1,8 +1,8 @@
 import React from "react";
 import { FiArrowRight } from "react-icons/fi";
-import pic1 from "../assets/pic1.png";
-import pic2 from "../assets/pic2.png";
-import pic3 from "../assets/pic3.png";
+import pic1 from "../assets/Pic1.png";
+import pic2 from "../assets/Pic2.png";
+import pic3 from "../assets/Pic3.png";
 
 const HeroSection = () => {
   return (
