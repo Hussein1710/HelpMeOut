@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
+import GetStartedPage from "../Pages/GetStartedPage";
 
 const Navbar = () => {
   return (
@@ -9,7 +11,7 @@ const Navbar = () => {
         <p>Features</p>
         <p>How it works</p>
       </div>
-      <p className="text-[#120B48] font-bold">Get started</p>
+      <Link to="/get-started" className="text-[#120B48] font-bold hover:cursor-pointer">Get started</Link>
     </div>
   );
 };
